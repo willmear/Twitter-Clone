@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/central-configuration/central-configuration" />
     <file type="web" url="file://$PROJECT_DIR$/core-service" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-service-discovery" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
