@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/central-configuration" />
     <file type="web" url="file://$PROJECT_DIR$/central-configuration/central-configuration" />
     <file type="web" url="file://$PROJECT_DIR$/core-service" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-service-discovery" />
