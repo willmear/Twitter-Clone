@@ -19,14 +19,17 @@ public class CoreController {
     private String message;
 
     @GetMapping("/message")
-    public String getMessage(@AuthenticationPrincipal Jwt jwt) {
+    public String getMessage() {
 
-        return String.format("Resource accessed by: %s (with subjectId: %s)" ,
-                jwt.getClaims().get("user_name"),
-                jwt.getSubject());
+        return "Protected";
     }
 
-    @GetMapping("/message2")
+    @GetMapping("/")
+    public String index(@AuthenticationPrincipal Jwt jwt) {
+        return String.format("Hello, %s!", jwt.getSubject());
+    }
+
+    @GetMapping("/api/message")
     public String getMessage2() {
         System.out.println("here");
 
